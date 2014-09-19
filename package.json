@@ -6,6 +6,6 @@
   "repository": "https://github.com/NaN-tic/angular-tryton-login.git",
   "license": "GPL",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "bower install"
   }
 }
