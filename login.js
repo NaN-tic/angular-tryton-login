@@ -1,10 +1,14 @@
 'use strict';
 
+var scripts = document.getElementsByTagName("script");
+var currentScriptPath = scripts[scripts.length-1].src;
+
 angular.module('myApp.login', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/login', {
-    templateUrl: 'login/login.html',
+    templateUrl: currentScriptPath.substring(0, currentScriptPath.lastIndexOf('/') + 1)
+        + '/login.html',
     controller: 'LoginCtrl'
   });
 }])
