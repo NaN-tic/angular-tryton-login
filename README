@@ -1,0 +1,32 @@
+tryton-angular-login
+====================
+
+The nantic module for Angular and Tryton application platform.
+
+
+For add component to Angular application.
+
+File: App.js
+
+    angular.module('myApp', [
+        'openlabs.angular-tryton'
+        'myApp.login',
+    ]).
+
+
+File: Index.html
+
+    <script src="app.js"></script>
+    <script src="bower_components/angular-tryton/src/tryton.js"></script>
+    <script src="bower_components/angular-tryton-login/login.js"></script>
+
+
+License
+-------
+
+See LICENSE
+
+Copyright
+---------
+
+See COPYRIGHT

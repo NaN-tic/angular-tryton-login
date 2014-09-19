@@ -1,0 +1,11 @@
+{
+  "name": "nantic-angular-tryton-login",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Login View for Tryton",
+  "repository": "https://github.com/NaN-tic/angular-tryton-login.git",
+  "license": "GPL",
+  "scripts": {
+    "postinstall": "bower install",
+  }
+}
